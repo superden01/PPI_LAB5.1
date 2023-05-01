@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPLessonApi", "HTTPLessonApi\HTTPLessonApi.csproj", "{4A089680-BF74-45B0-8A39-C2C27F9322E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{12781220-C6EE-4B48-B575-9FAA524621B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8498C4D1-7853-4A1F-9E1D-C5BC89808564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPLessonApi.DAL", "HTTPLessonApi.DAL\HTTPLessonApi.DAL.csproj", "{0E898C3B-AB91-402C-9220-EBA4BE794B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPLessonApi.Domain", "HTTPLessonApi.Domain\HTTPLessonApi.Domain.csproj", "{4AFFD775-2AA8-4C44-9FC3-34603C318257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A089680-BF74-45B0-8A39-C2C27F9322E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A089680-BF74-45B0-8A39-C2C27F9322E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A089680-BF74-45B0-8A39-C2C27F9322E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A089680-BF74-45B0-8A39-C2C27F9322E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E898C3B-AB91-402C-9220-EBA4BE794B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E898C3B-AB91-402C-9220-EBA4BE794B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E898C3B-AB91-402C-9220-EBA4BE794B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E898C3B-AB91-402C-9220-EBA4BE794B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFFD775-2AA8-4C44-9FC3-34603C318257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFFD775-2AA8-4C44-9FC3-34603C318257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFFD775-2AA8-4C44-9FC3-34603C318257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFFD775-2AA8-4C44-9FC3-34603C318257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E898C3B-AB91-402C-9220-EBA4BE794B41} = {12781220-C6EE-4B48-B575-9FAA524621B6}
+		{4AFFD775-2AA8-4C44-9FC3-34603C318257} = {8498C4D1-7853-4A1F-9E1D-C5BC89808564}
+	EndGlobalSection
+EndGlobal
